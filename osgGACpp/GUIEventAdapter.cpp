@@ -24,7 +24,7 @@ osg::ref_ptr<GUIEventAdapter>& GUIEventAdapter::getAccumulatedEventState()
 
 GUIEventAdapter::GUIEventAdapter():
     _handled(false),
-    _eventType(NONE),
+    _eventType(NONE_),
     _time(0.0),
     _windowX(0),
     _windowY(0),
