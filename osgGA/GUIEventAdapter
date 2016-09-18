@@ -249,7 +249,7 @@ public:
 
         enum TabletPointerType 
         {
-            UNKNOWN = 0,
+            _UNKNOWN = 0,
             PEN,
             PUCK,
             ERASER

@@ -48,7 +48,7 @@ GUIEventAdapter::GUIEventAdapter():
     _scrollingDeltaX(0),
     _scrollingDeltaY(0),
     _mouseYOrientation(Y_INCREASING_DOWNWARDS),
-    _tabletPointerType(UNKNOWN)
+    _tabletPointerType(_UNKNOWN)
 {}
 
 GUIEventAdapter::GUIEventAdapter(const GUIEventAdapter& rhs,const osg::CopyOp& copyop):
